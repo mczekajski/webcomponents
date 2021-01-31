@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="import" href="say-hello.html"> 
-</head>
-<body>
-    <say-hello>Web Components</say-hello>
-</body>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>My awesome tooltip</h1>
+      <p>
+        Lorem ipsum dolor sit amet<popup-notify></popup-notify> consectetur adipisicing elit. In saepe
+        corrupti minus incidunt est necessitatibus!
+      </p>
+    </div>
+
+    <script src="popupNotify.js"></script>
+  </body>
 </html>

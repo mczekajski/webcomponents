@@ -1,0 +1,22 @@
+{
+  "name": "webcomponents",
+  "version": "1.0.0",
+  "description": "",
+  "main": "counter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mczekajski/webcomponents.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mczekajski/webcomponents/issues"
+  },
+  "homepage": "https://github.com/mczekajski/webcomponents#readme",
+  "dependencies": {
+    "lit-html": "^1.3.0"
+  }
+}
